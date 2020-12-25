@@ -16,24 +16,24 @@ Implemented requeriments:
 
 Log
 --------
-####Arquitecture Definition:####
+**Arquitecture Definition**
 * Use of SOLID and Singleton Patterns
 
-####Basic greyboxing####
+**Basic greyboxing**
 * Interface and implementation of Camera and Selector
 * (Clean code allow to implement different solutions for different platforms)
 
-####Singleton based on ScriptableObjects ####
+**Singleton based on ScriptableObjects**
 * (this allows to setup the singleton from a Json coming from server, and allowing to implement a Client-Side Prediction and Server Reconciliation pattern for online implementation)
 * Singleton autoinjection
 * Without dependeces
 
-####Units implementation:####
+**Units implementation**
 * Based on scriptableobjects data
 * Interface Segregation (for implement differnt kinds of units)
 * Enemy Units with Event based implementation
 
-####Levels and Waves####
+**Levels and Waves**
 * Based on scriptableobjects data
 * Easy to tune
 * Easy to setup from server
